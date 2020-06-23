@@ -1,5 +1,7 @@
 # Important Plugins
 import streamlit as st #start off my loading streamlit
+import nltk
+nltk.download('punkt')
 
 # importing Newspaper3k
 import newspaper
